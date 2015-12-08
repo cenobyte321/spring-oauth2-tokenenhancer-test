@@ -28,7 +28,6 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-    	System.out.println("CLIENT CONFIGURED !!!");
         clients
             .inMemory()
                 .withClient("client")
